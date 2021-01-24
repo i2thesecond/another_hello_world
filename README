@@ -1,1 +1,80 @@
 blah
+
+
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+
+Italics are with a star or underscore
+*This text will be italic*
+_This will also be italic_
+
+Bold are with double star or double underscore
+**This text will be bold**
+__This will also be bold__
+
+
+Lists
+Unordered
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+Ordered
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+Images
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+Links happen automatically
+http://github.com
+[GitHub](http://github.com)
+
+Blockquotes are cool and are used with a less than sign
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+Inline code are used with the hyphon 
+Inline code
+I think you should use an
+`<addr>` element here instead.
+
+Syntax highlighting is really nifty for identifying and highlighting code segments done with three hyphons
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+Indending code is always a good idea. 
+
+    function fancyAlert(arg) {
+      if(arg) {
+        $.facebox({div:'#foo'})
+      }
+    }
+    
+Task lists are really neat because they can help when making and working on github issues.
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
+
+Tables are a great way to organize information. Not the simplest to memorize, it uses the pipe key to divide columns and the minus key to identity horizontal lines.
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
